@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Slide from './Slide'
+import Slide from './slide'
 
 class Slider extends Component {
   constructor() {
@@ -7,7 +7,7 @@ class Slider extends Component {
     this.state = {
       background: [
         {
-          imageUrl: 'http://198.58.109.189/wp-content/uploads/2017/11/Carbon-Fiber.jpg'
+          imageUrl: `${IMAGE_ASSETS_URL}/dr_hamed/praying.jpg`
         }
       ],
       currentImg: 0,
@@ -43,7 +43,9 @@ class Slider extends Component {
         <Slide
           background={this.state.background}
           current={this.state.currentImg}
-        />
+        >
+          <div>Learn More</div>
+        </Slide>
         <style jsx>{`
           .slideshow {
             overflow: hidden;
