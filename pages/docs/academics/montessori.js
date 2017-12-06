@@ -8,6 +8,7 @@ import { HR } from '../../../components/text/paragraph'
 import Image from '../../../components/image'
 import Now from '../../../components/now/now' */
 }
+import Image from '../../../components/image'
 
 // prettier-ignore
 export default withDoc({
@@ -21,6 +22,14 @@ For ages 18-Months to 6 Year Olds
 
 In addition to quality Quran and Arabic lessons, our program provides experiences that enrich and enhance each child’s cognitive, language, social, emotional, and physical development. The activities include school readiness skills, story time, centers and twice-a-day outdoor play. Children learn through play, experimentation, exploration, and testing. Learning should be joyful experience. Ninety percent of brain growth occurs from zero to five years. We incorporate current trends in early childhood education and then structure the curriculum to meet children’s individual needs.
 
+${
+  <Image
+    src={`${IMAGE_ASSETS_URL}/dr_hamed/praying.jpg`}
+    width={550}
+    height={380}
+    caption="dr hamed praying with the children"
+  />
+}
 
 
 ## Timing
