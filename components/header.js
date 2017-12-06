@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import Logo from './logo'
+{
+  /*import Logo from './logo'*/
+}
+import HQALogo from './hqalogo'
 
 class Header extends React.PureComponent {
   render() {
@@ -11,7 +14,7 @@ class Header extends React.PureComponent {
         <header className={clean ? 'clean' : null}>
           <Link prefetch href="/docs">
             <a className="logo">
-              <Logo />
+              <HQALogo />
             </a>
           </Link>
         </header>
@@ -31,8 +34,8 @@ class Header extends React.PureComponent {
 
             a.logo {
               display: block;
-              width: 39px;
-              height: 35px;
+              width: 12em;
+              height: 6em;
               position: relative;
             }
 
