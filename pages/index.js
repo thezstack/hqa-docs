@@ -1,25 +1,16 @@
 // Helpers
 
-import markdown from 'markdown-in-js'
-import withDoc, { components } from '../../lib/with-doc'
+import Link from 'next/link'
 
-{
-  /* import { leo, arunoda } from '../../../lib/data/team'
-import { TerminalInput } from '../../../components/text/terminal'
-import { Code } from '../../../components/text/code'
-import { HR } from '../../../components/text/paragraph'
-import Image from '../../../components/image'
-import Now from '../../../components/now/now' */
-}
+{/* import redirect from '../lib/redirect'
 
-// prettier-ignore
-export default withDoc({
-  title: 'Elementary School',
-  date: '6 Dec 2017',
-  authors: ["allen", "zubi"],
-})(markdown(components)`
+export default redirect('/docs') */}
 
-
-## Elementary School
-
-`)
+export default () => (
+  <div>
+    <h1>welcome to hqa</h1>
+    <Link href="/docs">
+      <a>info</a>
+    </Link>
+  </div>
+)
