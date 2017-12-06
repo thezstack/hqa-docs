@@ -1,17 +1,36 @@
 import React from 'react'
+import Link from 'next/link'
 
-function Slide({ background, current }) {
+function Slide({ background, current, children }) {
   return (
     <div>
-      <div className="slide" />
+      <div className="slide">
+        <div className="content">
+          <Link href="/docs/">
+            {children}
+          </Link>
+        </div>
+      </div>
       <style jsx>{`
+
+        .content {
+          font-size: 3em;
+          position: fixed;
+          color: #EEBD4F;
+          background-color: #122F78;
+          padding: 11px;
+          border: 3px solid #EEBD4F;
+        }
+
         .slide {
+          display: flex;
           height: 100vh;
           background-image: url('${background[current].imageUrl}');
           background-size: cover;
           background-position: center;
-          animation: kenburns 20s infinite;
           z-index: 1;
+          justify-content: center;
+          align-items: center;
         }
 
         @keyframes kenburns {

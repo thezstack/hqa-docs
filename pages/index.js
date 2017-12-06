@@ -20,6 +20,9 @@ export default function HQA() {
             margin: 0px;
             padding: 0px;
           }
+          body {
+            font-family: Avenir, sans-serif;
+          }
         `}</style>
     </div>
   )
