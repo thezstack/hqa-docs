@@ -18,6 +18,34 @@ export default withDoc({
 })(markdown(components)`
 
 
-## Elementary School
+
+The curriculum at HQA covers all Texas requirements STAAR TEKS and National Standards.
+
+
+3rd Grade: Math and Reading STAAR
+
+4th Grade: Math, Reading and Writing STAAR
+
+5th Grade: Math, Science and Seading STAAR
+Grade K-8 take IOWA OR ITBS
+
+
+## The IOWA Evaluates:
+
+Language Skills
+Vocabulary
+Reading
+Language
+Word Analysis (Grades K-3 only)
+Listening (Grades K-3 only)
+Spelling
+Mathematics
+Math Concepts
+Math Computation
+Math Problem Solving
+Science, Social Studies, and Study Skills
+Social Studies
+Science Materials
+Sources of Informations
 
 `)

@@ -20,4 +20,12 @@ export default withDoc({
 
 ## Middle School
 
+STAAR
+Grade K-8 take IOWA OR ITBS
+6th Grade: Math and Reading STAAR
+
+7th Grade: Math, Reading and Writing STAAR
+
+8th Grade: Math, Science, Social Studies and Reading STAA
+
 `)
