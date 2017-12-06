@@ -28,6 +28,7 @@ ${
     src={`${IMAGE_ASSETS_URL}/docs/installation/now-desktop.png`}
     width={550}
     height={380}
+    caption="this looks incredible"
   />
 }
 
