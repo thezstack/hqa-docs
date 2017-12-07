@@ -10,15 +10,16 @@ export default redirect('/docs')
 
 import Slider from '../components/slider'
 import Section from '../components/section'
+import Footer from '../components/footer/desktop'
 
 export default function HQA() {
   return (
     <div>
       <Slider />
-      <Section number={1} />
-      <Section number={2} />
-      <Section number={3} />
-      <Section number={4} />
+      <Section number={1} header="Our Formula" />
+      <Section number={2} header="Islamic Studies" />
+      <Section number={3} header="Academics" />
+      <Footer />
       <style jsx global>{`
           * {
             margin: 0px;
