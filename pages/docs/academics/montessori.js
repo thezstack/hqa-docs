@@ -27,7 +27,7 @@ ${
     src={`${IMAGE_ASSETS_URL}/montessori/child.jpg`}
     width={550}
     height={380}
-    caption="baby reading book"
+    caption="young child's first words"
   />
 }
 
