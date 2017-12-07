@@ -15,7 +15,6 @@ function Slide({ background, current, children }) {
 
         .content {
           font-size: 3em;
-          position: fixed;
           color: #EEBD4F;
           background-color: #122F78;
           padding: 11px;

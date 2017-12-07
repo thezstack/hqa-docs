@@ -19,7 +19,7 @@ RouterEvents.on('routeChangeError', () => {
 if (global.document) {
   const info = [
     `Version: ${VERSION}`,
-    `Check out our code here: https://zeit.co/oss`,
+    `Grow with us: https://growinfinitely.com`,
     `Have a great day! 📣🐢`
   ]
 
