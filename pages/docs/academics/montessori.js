@@ -25,9 +25,9 @@ In addition to quality Quran and Arabic lessons, our program provides experience
 ${
   <Image
     src={`${IMAGE_ASSETS_URL}/montessori/child.jpg`}
-    width={550}
-    height={380}
-    caption="dr hamed praying with the children"
+    width={1920}
+    height={1080}
+    caption="young child's first words"
   />
 }
 
