@@ -58,7 +58,7 @@ const HqaV1 = props => (
     <style jsx>{`
       svg {
         width: 8em;
-        height: 4em;
+        height: 6em;
       }
     `}</style>
   </svg>

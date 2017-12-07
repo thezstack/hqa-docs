@@ -27,7 +27,7 @@ ${
     src={`${IMAGE_ASSETS_URL}/montessori/child.jpg`}
     width={550}
     height={380}
-    caption="dr hamed praying with the children"
+    caption="baby reading book"
   />
 }
 
