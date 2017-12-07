@@ -5,16 +5,15 @@ export default function Navbar() {
     <div>
       <ul>
         <li>
-          <Link href="/docs">About</Link>
+          <Link href="/docs/islamic-studies/quran/memorization">
+            Islamic Studies
+          </Link>
         </li>
         <li>
-          <Link href="/docs">Contact</Link>
+          <Link href="/docs/academics/montessori">Academics</Link>
         </li>
         <li>
-          <Link href="/docs">Academics</Link>
-        </li>
-        <li>
-          <Link href="/docs">Resources</Link>
+          <Link href="/docs/contact-us">Contact Us</Link>
         </li>
       </ul>
       <style jsx>{`
