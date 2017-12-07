@@ -55,6 +55,12 @@ const HqaV1 = props => (
       className="cls-7"
       d="M162.21 147.34h-20.07a2.55 2.55 0 0 0 0 5.09h20.07a2.55 2.55 0 0 0 0-5.09z"
     />
+    <style jsx>{`
+      svg {
+        width: 8em;
+        height: 6em;
+      }
+    `}</style>
   </svg>
 )
 
