@@ -33,14 +33,11 @@ The following teaching areas are important components of our elementary school c
 Our mathematics program focuses on problem solving and the development of higher-order critical thinking skills, through real world application. Our curriculum presents mathematics in a logical progression designed to reduce learning gaps, develop persistence in problem solving, and prepare students to understand advanced mathematical concepts.
 
 ## Science
-Our science program is based around an integrated study of life science, Earth science and physical science. Students participate in a variety of hands-on labs and study topics in depth through project-based learning units, which connect science lab-based experiences with classroom instruction.
+Our curriculum is based around hands-on study of Quranic, Earth, and Life sciences. Students engage in the scientific process of questioning and reasoning behind why the world works while referencing back to the Holy Quran. The science program supports a variety of hands-on labs and study topics.
 
 ## Literacy
-Phonics training begins in kindergarten and expands during each academic year, with an emphasis on building vocabulary, reading comprehension, analysis, and other higher-order thinking skills. In upper elementary school, reading comprehension and literary analysis are emphasized using poetry, short stories, fiction, and nonfiction.
+Our English Language Arts program focus on core fundamentals like reading, writing, speaking, & listening. Phonics training begins in kindergarten and expands during each academic year, with an emphasis on building vocabulary, reading comprehension, analysis, and other higher-order thinking skills. In grades 3rd to 5th, reading comprehension and literary analysis are emphasized using poetry, short stories, fiction, and nonfiction.
 
-Your child is encouraged to practice their reading skills across the academic disciplines. Their learnings are reinforced in our science and social studies classrooms, where students are encouraged to analyze, deduce, evaluate, formulate opinions, and make connections.The reading/writing connection is emphasized, and the themes used in reading tasks are also covered in writing assignments, which give students the opportunity to practice writing in different ways.
-
-Our learners engage with writing through the workshop method, in which they're encouraged to write and think for themselves. Students learn the mechanics of writing—spelling, grammar, handwriting, and organization—as an integral part of both verbal and written communications. After being exposed to various writing styles through literary connections and classroom workshops, Village students take written pieces from draft to publication.
 
 ## Social Studies
 Social Studies introduces children to history, geography, and map making skills . Much of the focus in social studies is on hands-on activities and projects, films, video and field trips. Geography and mapping skills are integrated with the aim of helping students understand themselves and the world before them.
