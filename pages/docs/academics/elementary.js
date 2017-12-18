@@ -19,15 +19,16 @@ export default withDoc({
 
 
 ## Elementary Curriculum
-Houston Quran Academy is where children can explore the world around them. We stimulate their minds and nurture their hearts. We strongly believe in a balance between social and emotional learning. Our philosophy is that a child learns best when in a safe, secure, and happy environment.
-We want students to be engaged in hands-on learning prompted by their own curiosity and interests. Therefore, we base our curriculum around project-based learning. Lessons, assignments, and assessments are designed for and adjusted to each child’s level and needs.
+Houston Quran Academy is where children can explore the world around them. We stimulate their minds and nurture their hearts. We strongly believe that a child learns best when in a safe, secure, and happy environment.
+Our mission is to engage students in hands-on learning initiated by their own curiosity. Therefore, our curriculum revolves around project-based learning. Lessons, assignments, and assessments are designed for and adjusted to each child’s level and needs.
 
-In kindergarten through 2nd grade, your child establishes a firm foundation in reading, speaking, spelling, writing, mathematics, science, and social studies. In addition to these core subjects, instruction in technology, Arabic language, and physical education all enhance your child’s learning experience.
+In kindergarten through 2nd grade, your child establishes a firm foundation in  mathematics, science, literacy, and social studies. In addition to these core subjects, technology, programming, arabic, and physical education all enhance your child’s learning experience.
 
 Each child is individually supported in Houston Quran Academy's learning community with relationships and resources that foster confidence, problem solving, creativity and a passion for learning.
 
 In Grades 3 to 5, your child receives instruction that provides the best preparation for their continued learning and growth.
-The curriculum at HQA covers all Texas requirements STAAR TEKS and National Standards.
+
+The curriculum at HQA covers all Texas requirements STAAR TEKS and National Standards. HQA even uses IOWA evaluation for even further
 
 
 The following teaching areas are important components of our elementary school curriculum:
@@ -35,10 +36,10 @@ The following teaching areas are important components of our elementary school c
 
 
 ## Mathematics
-Our mathematics program focuses on problem solving and the development of higher-order critical thinking skills, through real world application. Our curriculum presents mathematics in a logical progression designed to reduce learning gaps, develop persistence in problem solving, and prepare students to understand advanced mathematical concepts.
+Our Mathematics program focuses on problem solving and the development of higher-order critical thinking skills, through real world application. Our curriculum presents mathematics in a logical progression designed to reduce learning gaps, develop persistence in problem solving, and prepare students to understand advanced mathematical concepts.
 
 ## Science
-Our curriculum is based around hands-on study of Quranic, Earth, and Life sciences. Students engage in the scientific process of questioning and reasoning behind why the world works while referencing back to the Holy Quran. The science program supports a variety of hands-on labs and study topics.
+The Science program is based around hands-on study of Quranic, Earth, and Life sciences. Students engage in the scientific process of questioning and reasoning behind why the world works while referencing back to the Holy Quran. The science program supports a variety of hands-on labs and study topics.
 
 ## Literacy
 Our English Language Arts program focus on core fundamentals like reading, writing, speaking, & listening. Phonics training begins in kindergarten and expands during each academic year, with an emphasis on building vocabulary, reading comprehension, analysis, and other higher-order thinking skills. In grades 3rd to 5th, reading comprehension and literary analysis are emphasized using poetry, short stories, fiction, and nonfiction.
@@ -53,21 +54,21 @@ The technology program develops a sense of computer literacy in each student. St
 
 ### Computers and iPads in the Classroom:
 
-Reinforce skills in other subject areas
-Practice keyboarding
-Learn new programs
-Research information
-Create projects through word processing and other programs
-Explore new ideas
+Reinforce skills in other subject areas.
+Practice keyboarding.
+Learn new programs.
+Research information.
+Create projects through word processing and other programs.
+Explore new ideas.
 
 ### Computer Lab:
 
-Increase computer literacy
-Learn proper keyboarding techniques
-Learn word processing and other programs used in classroom-generated projects
-Learn to use the Internet correctly and safely
-Learn to create multimedia projects
-Explore coding and robotics
+Increase computer literacy.
+Learn proper keyboarding techniques.
+Learn word processing and other programs used in classroom-generated projects.
+Learn to use the Internet correctly and safely.
+Learn to create multimedia projects.
+Explore coding and robotics.
 
 ## Physical Education
 Activites are designed to provide daily exercise, friendly competition, and relationship building among peers. Students learn how to use their bodies more efficienty & knowledgably through a wide variety of fundametal sports. Students are tested on good sportsmanship, coordination, & motor skills.
