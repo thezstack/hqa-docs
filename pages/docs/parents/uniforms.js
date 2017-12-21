@@ -41,7 +41,6 @@ Amira style hijab (No wrap hijabs will be allowed)
 A black abaya can be worn on Fridays only
 Tennis shoes
 # Middle and High School
-
 ### Boys (Grade 6 - Grade 12)
 Khaki Pants ONLY
 Polo Style shirt (White or Navy Blue)
