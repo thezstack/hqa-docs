@@ -28,7 +28,6 @@ We are a club that provides a place for students who enjoy baking to bake in sch
 Recipes are fun, challenging, & tasty!
 ## Tarbiya
 Tarbiyah is most important with respect to our children, so that they are brought up upon the correct path of Islam. On an individual level, it helps us to dedicate some time to research a topic in the deen, and motivate ourselves to practice what we preach. By teaching it to others, we are not just helping ourselves to grow, but sharing it with our wider community, and hopefully it will be a continuous good deed. It should be a nurturing ground for educational, spiritual, and intellectual development. This is only a drop in the ocean of self-development, but we should nonetheless use this as a resource to implement in our lives, as that is the purpose of knowledge- to do something with it.
-## Computing
 
 
 

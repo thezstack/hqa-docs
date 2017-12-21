@@ -20,4 +20,7 @@ export default withDoc({
 
 ## High School
 
+Many courses to talk about, what to do when graduating, requirements, dual credit, how does that prcess work?
+
+
 `)
