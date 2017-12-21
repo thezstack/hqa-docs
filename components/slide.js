@@ -1,14 +1,12 @@
 import React from 'react'
-import Link from 'next/link'
+import LearnMoreButton from '../components/learn-more-button'
 
-function Slide({ background, current, children }) {
+function Slide({ background, current }) {
   return (
     <div>
       <div className="slide">
         <div className="content">
-          <Link href="/docs/">
-            {children}
-          </Link>
+          <LearnMoreButton />
         </div>
       </div>
       <style jsx>{`
@@ -16,20 +14,26 @@ function Slide({ background, current, children }) {
         .content {
           font-size: 3em;
           color: #EEBD4F;
-          background-color: #122F78;
           padding: 11px;
-          border: 3px solid #EEBD4F;
+          z-index: 10;
+          position: absolute;
+          bottom: 0;
+          margin-left: 600px;
+          text-transform: uppercase;
         }
 
         .slide {
-          display: flex;
           height: 100vh;
           background-image: url('${background[current].imageUrl}');
           background-size: cover;
           background-position: center;
           z-index: 1;
-          justify-content: center;
-          align-items: center;
+          min-height: calc(100vh - 300px);
+          width: 100%;
+        }
+
+        .arrow {
+          transform: rotate(90deg);
         }
 
         @keyframes kenburns {

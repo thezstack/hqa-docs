@@ -43,14 +43,16 @@ class Slider extends Component {
         <Slide
           background={this.state.background}
           current={this.state.currentImg}
-        >
-          <div>Learn More</div>
-        </Slide>
+        />
         <style jsx>{`
           .slideshow {
             overflow: hidden;
             z-index: -1;
           }
+          .learn-more {
+            display: inline-block;
+          }
+
         `}</style>
       </div>
     )

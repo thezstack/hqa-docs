@@ -33,7 +33,7 @@ class Head extends React.PureComponent {
   render() {
     const titlePrefix = null != this.props.titlePrefix
       ? this.props.titlePrefix
-      : 'ZEIT – '
+      : 'HQA – '
     const ogDescription = this.props.ogDescription || this.props.description
     const { darkBg } = this.context
     return (
@@ -76,6 +76,10 @@ class Head extends React.PureComponent {
                 <meta name="og:video:type" content="video/mp4" key="2" />
               ]
             : null}
+          <link
+            href="https://fonts.googleapis.com/css?family=Cormorant+Garamond"
+            rel="stylesheet"
+          />
           <link
             rel="apple-touch-icon"
             sizes="57x57"
