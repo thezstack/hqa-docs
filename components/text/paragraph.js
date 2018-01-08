@@ -7,6 +7,7 @@ export const P = ({ children }) => (
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
+
       }
     `}
     </style>
@@ -19,10 +20,12 @@ export const PDIV = ({ children }) => (
     <style jsx>
       {`
       div {
-        font-weight: 400;
+        font-weight: 500;
         font-size: 14px;
         line-height: 24px;
         margin-bottom: 20px;
+        font-family: avenir;
+
       }
     `}
     </style>

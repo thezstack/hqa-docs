@@ -8,6 +8,7 @@ class Slider extends Component {
       background: [
         {
           imageUrl: `${IMAGE_ASSETS_URL}/dr_hamed/praying.jpg`
+
         }
       ],
       currentImg: 0,
@@ -44,13 +45,22 @@ class Slider extends Component {
           background={this.state.background}
           current={this.state.currentImg}
         >
-          <div>Learn More</div>
+          <div>
+            <h1>وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَاماً</h1>
+            <p className="cta"> "O Allah, make us leaders of the righteous."</p>
+          </div>
         </Slide>
         <style jsx>{`
           .slideshow {
             overflow: hidden;
             z-index: -1;
           }
+
+          .cta{
+            color:white;
+            font-size:1em;
+          }
+
         `}</style>
       </div>
     )

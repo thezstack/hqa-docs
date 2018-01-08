@@ -5,6 +5,11 @@ export default function Navbar() {
     <div>
       <ul>
         <li>
+          <Link href="/">
+            <strong>HQA</strong>
+          </Link>
+        </li>
+        <li>
           <Link href="/docs/islamic-studies/quran/memorization">
             Islamic Studies
           </Link>
@@ -13,15 +18,18 @@ export default function Navbar() {
           <Link href="/docs/academics/montessori">Academics</Link>
         </li>
         <li>
-          <Link href="/docs/contact-us">Contact Us</Link>
+          <Link href="/docs/contact-us">Parents</Link>
+        </li>
+        <li>
+          <Link href="/docs/contact-us">Contact</Link>
         </li>
       </ul>
       <style jsx>{`
         div {
-          padding: 33px;
+          padding: 50px;
         }
         ul {
-          float: right;
+          float: left;
         }
         li {
           display: inline;

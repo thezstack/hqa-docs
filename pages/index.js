@@ -17,10 +17,9 @@ export default function HQA() {
   return (
     <div>
       <Navbar />
-      <Slider />
-      <Section number={1} header="Our Formula" />
-      <Section number={2} header="Islamic Studies" />
-      <Section number={3} header="Academics" />
+
+
+
       <Footer />
       <style jsx global>{`
           * {
@@ -29,7 +28,9 @@ export default function HQA() {
           }
           body {
             font-family: Avenir, sans-serif;
+            height:100%;
           }
+
         `}</style>
     </div>
   )

@@ -6,6 +6,7 @@ export const H1 = ({ children }) => (
       h1 {
         font-weight: 200;
         font-size: 32px;
+        
       }
     `}
     </style>

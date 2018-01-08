@@ -14,19 +14,20 @@ function Slide({ background, current, children }) {
       <style jsx>{`
 
         .content {
-          font-size: 3em;
+          font-size: 1.4em;
           color: #EEBD4F;
           background-color: #122F78;
           padding: 11px;
-          border: 3px solid #EEBD4F;
+
         }
 
         .slide {
           display: flex;
-          height: 100vh;
+          height: 473px;
+          width: 712px;
           background-image: url('${background[current].imageUrl}');
           background-size: cover;
-          background-position: center;
+          background-position:right;
           z-index: 1;
           justify-content: center;
           align-items: center;
