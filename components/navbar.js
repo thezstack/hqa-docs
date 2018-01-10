@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div>
       <div className="navbar-top">
-        <i className="menu-icon" />
+        <span className="menu-icon">V</span>
       </div>
       <div className="dropdown-nav">
         <ul>
@@ -38,21 +38,32 @@ export default function Navbar() {
           .navbar-top {
             height: 60px;
             background-color: #11194F;
-            border-bottom: 1px solid #E3D961;
+            border-bottom: 1px solid #C6BF65;
+          }
+          .menu-icon {
+            display: block;
+            height: 60px;
+            width: 60px;
+            float: right;
+            color: #C6BF65;
+            font-size: 30px;
+            line-height: 60px;
+            text-align: center;
           }
           ul {
             background-color: #11194F;
-            border-bottom: 1px solid #E3D961;
+            padding: 10px 0;
+            border-bottom: 1px solid #C6BF65;
           }
           li {
             display: block;
             margin: 0px;
             padding: 10px 20px;
-            color: #E3D961;
+            color: #C6BF65;
             text-align: right;
           }
           Link {
-            color: #E3D961;
+            color: #C6BF65;
           }
         `}</style>
     </div>

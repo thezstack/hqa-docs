@@ -8,26 +8,26 @@ export default redirect('/docs')
 */
 }
 
-import Slider from '../components/slider'
-import Section from '../components/section'
-import Footer from '../components/footer/desktop'
+// import Slider from '../components/slider'
+// import Section from '../components/section'
 import Navbar from '../components/navbar'
+import Main from '../components/main'
+import Head from '../components/head'
 
 export default function HQA() {
   return (
     <div>
+      <Head />
       <Navbar />
-
-
-
-      <Footer />
+      <Main />
       <style jsx global>{`
           * {
             margin: 0px;
             padding: 0px;
           }
           body {
-            font-family: Avenir, sans-serif;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 20px;
             height:100%;
           }
 
