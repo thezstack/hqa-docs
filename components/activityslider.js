@@ -31,7 +31,7 @@ class DemoCarousel extends Component {
               great friendships and learn skills to help  them get a head start in
               lucrative careers.{' '}
             </p>
-            <LearnButton />
+            <LearnButton href={'/docs/islamic-studies/quran/memorization'} />
           </div>
           <div className="slide-2">
             <div className="controls-arrow">
@@ -54,7 +54,7 @@ class DemoCarousel extends Component {
               and personality. It goes beyond what’s taught in the classroom
               for those who truly want to excel.{' '}
             </p>
-            <LearnButton />
+            <LearnButton href={'/docs/islamic-studies/quran/memorization'} />
           </div>
           <div className="slide-3">
             <div className="controls-arrow">
@@ -77,7 +77,7 @@ class DemoCarousel extends Component {
               students to make a strong brotherhood and sisterhood. It teaches them
               about teamwork, cooperation, and determination.{' '}
             </p>
-            <LearnButton />
+            <LearnButton href={'/docs/islamic-studies/quran/memorization'} />
           </div>
         </Carousel>
 

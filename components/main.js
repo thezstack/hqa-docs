@@ -1,14 +1,17 @@
 import LearnButton from './learnbutton'
 import Image from './image'
+import Link from 'next/link'
 import DemoCarousel from './activityslider'
 import ImgCarousel from './homeslider'
 
 export default function Main() {
   return (
     <div>
+
       <section className="screen-1">
         <ImgCarousel />
       </section>
+
       <section className="screen-2">
         <Image
           src={`${IMAGE_ASSETS_URL}/icons/quran-book-img.png`}
@@ -23,27 +26,8 @@ export default function Main() {
           their best in everything they do - whether academic, or extra curricular.
           {' '}
         </p>
-        <LearnButton />
+        <LearnButton href={'/docs/islamic-studies/quran/memorization'} />
       </section>
-
-      <style jsx global>{`
-          .screen-2 > figure > main {
-            margin: 0px;
-            text-align: left;
-            padding-top: 26px;
-            padding-left: 36px;
-          }
-          .titleHQA {
-            padding: 0 36px 19px 36px;
-            font-size: 24px;
-            line-height: 29px;
-          }
-          .screen-2 > p {
-            font-size: 20px;
-            line-height: 27px;
-            padding: 0 36px 19px 36px;
-          }
-        `}</style>
 
       <section className="screen-3">
         <Image
@@ -56,30 +40,8 @@ export default function Main() {
           We take academics seriously. Our students consistently perform in
           the top 99th percentile across standardized IOWA tests.{' '}
         </p>
-        <LearnButton />
+        <LearnButton href={'/docs/islamic-studies/quran/memorization'} />
       </section>
-
-      <style jsx global>{`
-          .screen-3 > figure {
-            margin: 0px !important;
-          }
-          .screen-3 > figure > main {
-            margin: 0px;
-            text-align: left;
-            padding: 83px 0 40px 36px;
-          }
-          .titleTop {
-            padding: 0 36px 19px 36px;
-            font-size: 24px;
-            line-height: 29px;
-            color: #BAB453;
-          }
-          .screen-3 > p {
-            font-size: 20px;
-            line-height: 27px;
-            padding: 0 36px 19px 36px;
-          }
-        `}</style>
 
       <section className="screen-4">
         <DemoCarousel />
@@ -92,45 +54,64 @@ export default function Main() {
         <p>12/25  School Fundraiser</p>
         <p>12/25  School Fundraiser</p>
       </section>
-      <style jsx>{`
-          h2 {
-            padding: 75px 36px 36px 27px;
-            font-size: 36px;
-            line-height: 44px;
-          }
-          p {
-            padding: 0 36px;
-            font-size: 20px;
-            line-height: 27px;
-          }
-        `}</style>
+
       <section className="screen-6">
         <div className="galery" />
       </section>
+
       <section className="screen-7">
         <div className="footer">
-          <button className="contact-button">APPLY NOW</button>
-          <button className="contact-button">RESOURCES</button>
-          <button className="contact-button">CONTACT US</button>
+          <div className="contact-button">
+            <Link href="/">
+              <span>APPLY NOW</span>
+            </Link>
+          </div>
+          <div className="contact-button">
+            <Link href="/">
+              <span>RESOURCES</span>
+            </Link>
+          </div>
+          <div className="contact-button">
+            <Link href="/">
+              <span>CONTACT US</span>
+            </Link>
+          </div>
         </div>
       </section>
+
       <style jsx>{`
-          .contact-button {
-            display: block;
-            width: 250px;
-            height: 82px;
-            margin: 43px auto;
-            font-size: 24px;
-            font-weight: bold;
-            line-height: 33px;
-          }
-          .footer {
-            position: absolute;
-            transform: translate(-50%,-50%);
-            top: 50%;
-            left: 50%;
-          }
-        `}</style>
+        h2 {
+          padding: 75px 36px 36px 27px;
+          font-size: 36px;
+          line-height: 44px;
+        }
+        p {
+          padding: 0 36px;
+          font-size: 20px;
+          line-height: 27px;
+        }
+        .contact-button {
+          display: block;
+          width: 250px;
+          height: 82px;
+          margin: 43px auto;
+          color: #0E113E;
+          font-size: 24px;
+          font-weight: bold;
+          line-height: 33px;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 82px;
+          background-color: #C6BF65;
+          border: 1px solid #C6BF65;
+        }
+        .footer {
+          position: absolute;
+          transform: translate(-50%,-50%);
+          top: 50%;
+          left: 50%;
+        }
+      `}</style>
 
       <style jsx global>{`
           * {
@@ -150,11 +131,40 @@ export default function Main() {
             background-color: #11194F;
             color: #ffffff;
           }
-
-          .contact-button {
-            background-color: #C6BF65;
-            padding: 10px;
-            border: 1px solid #C6BF65;
+          .screen-3 > figure {
+            margin: 0px !important;
+          }
+          .screen-3 > figure > main {
+            margin: 0px;
+            text-align: left;
+            padding: 83px 0 40px 36px;
+          }
+          .screen-2 > figure > main {
+            margin: 0px;
+            text-align: left;
+            padding-top: 26px;
+            padding-left: 36px;
+          }
+          .titleHQA {
+            padding: 0 36px 19px 36px;
+            font-size: 24px;
+            line-height: 29px;
+          }
+          .screen-2 > p {
+            font-size: 20px;
+            line-height: 27px;
+            padding: 0 36px 19px 36px;
+          }
+          .titleTop {
+            padding: 0 36px 19px 36px;
+            font-size: 24px;
+            line-height: 29px;
+            color: #BAB453;
+          }
+          .screen-3 > p {
+            font-size: 20px;
+            line-height: 27px;
+            padding: 0 36px 19px 36px;
           }
 
         `}</style>

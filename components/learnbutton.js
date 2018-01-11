@@ -1,15 +1,19 @@
 import Arrow from './arrow'
 
-export default function LearnButton() {
+const LearnButton = ({ href }) => {
+  // if (!href) {
+  //   throw new Error('Please define the width of the image!')
+  // }
+
   return (
     <div>
       <span className="link-conteiner">
-        <span className="link">
+        <a href={href} className="link">
           Learn More
           <span className="arrow-right">
             <Arrow />
           </span>
-        </span>
+        </a>
       </span>
       <style jsx>{`
           .link-conteiner {
@@ -42,3 +46,5 @@ export default function LearnButton() {
     </div>
   )
 }
+
+export default LearnButton
