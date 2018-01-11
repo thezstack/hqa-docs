@@ -29,6 +29,9 @@ export default function HQA() {
             font-family: 'Cormorant Garamond', serif;
             font-size: 20px;
             height:100%;
+            max-width: 768px;
+            position: relative;
+            margin: auto;
           }
 
         `}</style>
