@@ -9,7 +9,7 @@ class DemoCarousel extends Component {
   render() {
     return (
       <div className="activity">
-        <Carousel infiniteLoop>
+        <Carousel infiniteLoop showStatus={false}>
           <div className="slide-1">
             <div className="controls-arrow">
               <div className="arrow-left">
@@ -107,9 +107,6 @@ class DemoCarousel extends Component {
                 .activity .carousel .slide {
                   background: #ffffff;
                   text-align: inherit;
-                }
-                .carousel .carousel-status {
-                  display: none;
                 }
                 .screen-4 {
                   height: auto;

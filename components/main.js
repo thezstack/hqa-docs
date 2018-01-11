@@ -1,10 +1,14 @@
 import LearnButton from './learnbutton'
 import Image from './image'
 import DemoCarousel from './activityslider'
+import ImgCarousel from './homeslider'
 
 export default function Main() {
   return (
     <div>
+      <section className="screen-1">
+        <ImgCarousel />
+      </section>
       <section className="screen-2">
         <Image
           src={`${IMAGE_ASSETS_URL}/icons/quran-book-img.png`}
