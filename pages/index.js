@@ -26,7 +26,7 @@ export default function HQA() {
             padding: 0px;
           }
           body {
-            font-family: 'Cormorant Garamond', serif;
+            font-family: 'Avenir', serif;
             font-size: 20px;
             height:100%;
             max-width: 768px;

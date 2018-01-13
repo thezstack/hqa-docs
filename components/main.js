@@ -3,6 +3,7 @@ import Image from './image'
 import Link from 'next/link'
 import DemoCarousel from './activityslider'
 import ImgCarousel from './homeslider'
+// import Gallery from './gallery'
 
 export default function Main() {
   return (
@@ -55,9 +56,7 @@ export default function Main() {
         <p>12/25  School Fundraiser</p>
       </section>
 
-      <section className="screen-6">
-        <div className="galery" />
-      </section>
+      <section className="screen-6" />
 
       <section className="screen-7">
         <div className="footer">
@@ -84,10 +83,11 @@ export default function Main() {
           padding: 75px 36px 36px 27px;
           font-size: 36px;
           line-height: 44px;
+          font-family: 'Cormorant Garamond', sans-serif;
         }
         p {
           padding: 0 36px;
-          font-size: 20px;
+          font-size: 18px;
           line-height: 27px;
         }
         .contact-button {
@@ -149,9 +149,10 @@ export default function Main() {
             padding: 0 36px 19px 36px;
             font-size: 24px;
             line-height: 29px;
+            font-family: 'Cormorant Garamond', sans-serif;
           }
           .screen-2 > p {
-            font-size: 20px;
+            font-size: 18px;
             line-height: 27px;
             padding: 0 36px 19px 36px;
           }
@@ -160,9 +161,10 @@ export default function Main() {
             font-size: 24px;
             line-height: 29px;
             color: #BAB453;
+            font-family: 'Cormorant Garamond', sans-serif;
           }
           .screen-3 > p {
-            font-size: 20px;
+            font-size: 18px;
             line-height: 27px;
             padding: 0 36px 19px 36px;
           }

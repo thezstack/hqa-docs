@@ -42,6 +42,7 @@ export default function DropdownNav() {
               padding: 10px 20px;
               color: #C6BF65;
               text-align: right;
+              font-family: 'Cormorant Garamond', sans-serif;
             }
             Link {
               color: #C6BF65;

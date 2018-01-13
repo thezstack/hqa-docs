@@ -10,6 +10,7 @@ const Header = () => (
         rel="stylesheet"
       />
       <link rel="stylesheet" href="../static/styles/carousel.min.css" />
+      <link rel="stylesheet" href="../static/styles/fonts.css" />
     </Head>
   </div>
 )
