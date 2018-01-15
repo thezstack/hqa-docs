@@ -19,7 +19,9 @@ export default function HQA() {
     <div>
       <Head />
       <Navbar />
+
       <Main />
+
       <style jsx global>{`
           * {
             margin: 0px;
