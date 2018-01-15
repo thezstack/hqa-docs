@@ -55,7 +55,6 @@ class Slider extends Component {
             overflow: hidden;
             z-index: -1;
           }
-
           .cta{
             color:white;
             font-size:1em;
