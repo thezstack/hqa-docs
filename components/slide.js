@@ -12,21 +12,18 @@ function Slide({ background, current }) {
       <style jsx>{`
 
         .content {
-          font-size: 3em;
+          font-size: 1.4em;
           color: #EEBD4F;
           padding: 11px;
-          z-index: 10;
-          position: absolute;
-          bottom: 0;
-          margin-left: 600px;
-          text-transform: uppercase;
         }
 
         .slide {
-          height: 100vh;
+          display: flex;
+          height: 473px;
+          width: 712px;
           background-image: url('${background[current].imageUrl}');
           background-size: cover;
-          background-position: center;
+          background-position:right;
           z-index: 1;
           min-height: calc(100vh - 300px);
           width: 100%;

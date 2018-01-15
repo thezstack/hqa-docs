@@ -20,7 +20,7 @@ export default withDoc({
 })(markdown(components)`
 
 
-## How Did HQA Start?
+
 
 Established in 2006, Houston Quran Academy is built upon educating students on Quranic & Worldly sciences. All of our students learn how to strive in becoming a committed balanced muslim, knowledgable scholar, contributing citizen and a community builder.
 
