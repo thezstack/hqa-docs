@@ -13,7 +13,7 @@ export default redirect('/docs')
 import Navbar from '../components/navbar'
 import Main from '../components/main'
 import Head from '../components/head'
-
+import Footer from '../components/footer/desktop'
 export default function HQA() {
   return (
     <div>
@@ -21,15 +21,15 @@ export default function HQA() {
       <Navbar />
 
       <Main />
-
+      <Footer />
       <style jsx global>{`
           * {
             margin: 0px;
             padding: 0px;
           }
+
           body {
             font-family: 'Avenir', serif;
-            font-size: 20px;
             height:100%;
             max-width: 768px;
             position: relative;
