@@ -1,6 +1,5 @@
 import markdown from 'markdown-in-js'
 import withDoc, { components } from '../../../lib/with-doc'
-
 {
   /* import { leo, arunoda } from '../../../lib/data/team'
 import { TerminalInput } from '../../../components/text/terminal'
@@ -12,10 +11,12 @@ import Now from '../../../components/now/now' */
 
 // prettier-ignore
 export default withDoc({
-  title: 'Resources',
+  title: 'Useful Links',
   date: '6 Dec 2017',
   authors: ["allen", "zubi"],
 })(markdown(components)`
+
+
 
 
 ## Orbund

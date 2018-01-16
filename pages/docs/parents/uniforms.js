@@ -20,41 +20,34 @@ export default withDoc({
 
 # Elementary
 
-### Boys (Kindergarten - Grade 5)
-Khaki Pants ONLY
-Polo Style shirt (White or Navy Blue)
-Thobe can only be worn on Fridays, and must be long sleeved and solid color
-Tennis shoes
+## Kindergarten - 5th Grade
 
+### Boys
+Khaki pants with polo shirt (White or Navy Blue). Fridays we encourage our student to wear thobes that have long sleeves and any color of their choice. Tennis shoes.
 
-### Girls (Kindergarten - Grade 4)
-Khaki jumper ONLY
-Khaki pants ONLY
-White or navy blue shirt
-Amira style scarf (No wrap hijabs will be allowed)
-A black abaya can be worn on Fridays only
-Tennis shoes
+### Girls
+Khaki jumper or pants. White or navy blue shirt Amira style scarf, we discourage wrap hijabs. Abaya can be worn on Fridays.
+Tennis shoes.
 
 ### Girls (Grade 5)
-Abaya (East Essence)
-Amira style hijab (No wrap hijabs will be allowed)
-A black abaya can be worn on Fridays only
-Tennis shoes
-# Middle and High School
-### Boys (Grade 6 - Grade 12)
-Khaki Pants ONLY
-Polo Style shirt (White or Navy Blue)
-Thobe can only be worn on Fridays, and must be long sleeved and solid color
-Tennis shoes
+Abaya from East Essence. Amira style hijab, we discourage wrap hijabs. Abaya can be worn on Fridays.
+Tennis shoes.
 
-### Girls (Grade 6 - Grade 12)
-Abaya (East Essence)
-Any color hijab
-A black abaya can be worn on Fridays only
+# Middle and High School
+## 6th - 12th Grade
+### Boys
+Khaki Pants.Polo Style shirt (White or Navy Blue)
+Fridays we encourage our student to wear thobes that have long sleeves and any color of their choice. Tennis shoes.
+
+
+### Girls
+Abaya (East Essence). Any color hijab. A black abaya can be worn on Fridays.
 Tennis shoes
 
 ## P.E.
-PE uniforms are required for girls in 3rd grade and up.  They will remain the same as last year's so you do not need to purchase a new one if you already have one. Sr. Hind will be contacting you on how to order the uniform in case you do want to order a new one or if you are new to our school.
-East Essence Uniform for grades 5th-12th girls: According to our current HQA uniform policy, girls in 5th grade and up are required to wear abayas to school. Like last year we have made an agreement with East Essence, which is an online clothing store, and will be requiring that all abayas be bought directly from them for the upcoming school year 2016-2017. We have chosen this company due to the quality of their products and inexpensive pricing.
+PE uniforms are required for girls in 3rd grade and up. Uniforms can be purchased from East Essence. See description below.
+
+## East Essence
+East Essence, which is an online clothing store, has partnered with us to sell high quality abaya at a very inexpensive price. Any clothing purchased through them also helps with our cost of running the school. 
 
 `)
