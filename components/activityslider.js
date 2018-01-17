@@ -9,7 +9,7 @@ class DemoCarousel extends Component {
   render() {
     return (
       <div className="activity">
-        <Carousel infiniteLoop showStatus={false}>
+        <Carousel autoPlay={false} showStatus={false} showIndicators={true}>
           <div className="slide-1">
             <div className="controls-arrow">
               <div className="arrow-left">

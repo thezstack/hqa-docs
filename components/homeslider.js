@@ -7,9 +7,9 @@ class ImgCarousel extends Component {
       <div className="imgSlide">
         <Carousel
           infiniteLoop
-          showIndicators={false}
+          showIndicators={true}
           showStatus={false}
-          autoPlay={true}
+          autoPlay={false}
         >
           <div className="home-slide">
             <div className="img-bg first-img" />
@@ -21,8 +21,13 @@ class ImgCarousel extends Component {
           </div>
           <div className="home-slide">
             <div className="img-bg third-img" />
+            <div className="capture">knowledgable scholars</div>
+          </div>
+          <div className="home-slide">
+            <div className="img-bg third-img" />
             <div className="capture">and contributing citizens.</div>
           </div>
+
         </Carousel>
 
         <style jsx global>{`
@@ -64,6 +69,7 @@ class ImgCarousel extends Component {
             height: 100px;
             padding: 20px 10px;
             text-align: center;
+            font-size:1.3em;
           }
           .imgSlide .carousel.carousel-slider .control-arrow {
             top: auto;
@@ -78,6 +84,7 @@ class ImgCarousel extends Component {
           .imgSlide .carousel .control-next.control-arrow {
               right: 15px;
               left: auto;
+              display:none;
           }
           .imgSlide .carousel .control-next.control-arrow:before {
               border-left: 8px solid #C6BF65;

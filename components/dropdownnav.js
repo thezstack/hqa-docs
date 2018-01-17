@@ -34,13 +34,13 @@ export default function DropdownNav() {
             ul {
               background-color: #11194F;
               padding: 10px 0;
-              border-bottom: 1px solid #C6BF65;
+              border-bottom: 1px solid white;
             }
             li {
               display: block;
               margin: 0px;
               padding: 10px 20px;
-              color: #C6BF65;
+              color: #fff;
               text-align: right;
               font-family: 'Cormorant Garamond', sans-serif;
             }

@@ -16,6 +16,7 @@ export default class Navbar extends React.Component {
           className={show ? 'navbar-top change' : 'navbar-top'}
           onClick={() => this.toggle()}
         >
+
           <div className="menu-icon">
             <div className="bar1" />
             <div className="bar2" />
@@ -36,8 +37,12 @@ export default class Navbar extends React.Component {
             }
             .navbar-top {
               height: 60px;
-              background-color: #11194F;
-              border-bottom: 1px solid #C6BF65;
+              background-color: #fff;
+              border-bottom: 1px solid #00365D;
+            }
+
+            .logo{
+              margin-right:20px;
             }
             .menu-icon {
               display: block;
@@ -52,7 +57,7 @@ export default class Navbar extends React.Component {
             .bar1, .bar2, .bar3 {
                 width: 35px;
                 height: 5px;
-                background-color: #C6BF65;
+                background-color: #00365D;
                 margin: 6px auto;
                 transition: 0.4s;
             }
