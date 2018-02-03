@@ -32,7 +32,7 @@ export default function DropdownNav() {
               padding: 0px;
             }
             ul {
-              background-color: #11194F;
+              background-color: #17345b;
               padding: 10px 0;
               border-bottom: 1px solid white;
             }

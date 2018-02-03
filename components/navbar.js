@@ -37,7 +37,7 @@ export default class Navbar extends React.Component {
             }
             .navbar-top {
               height: 60px;
-              background-color: #fff;
+              background-color: #17345b;
               border-bottom: 1px solid #00365D;
             }
 
@@ -57,7 +57,7 @@ export default class Navbar extends React.Component {
             .bar1, .bar2, .bar3 {
                 width: 35px;
                 height: 5px;
-                background-color: #00365D;
+                background-color: #fff;
                 margin: 6px auto;
                 transition: 0.4s;
             }
