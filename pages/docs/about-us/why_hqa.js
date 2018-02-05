@@ -3,6 +3,7 @@ import withDoc, { components } from '../../../lib/with-doc'
 import Image from '../../../components/image'
 import VisionSnippet from '../../../components/visionsnippet'
 import AchievementSlider from '../../../components/achievementslider'
+import CtaButton from '../../../components/ctabutton'
 
 export default withDoc({
   title: '',
@@ -23,8 +24,10 @@ ${<Image src={`${IMAGE_ASSETS_URL}/logo/School_seal.png`} width={150} height={15
 Navy Blue is a color of trust, honesty & intuition. These are some of the values we instill early on among our students. White represents نور (light) of students and the pursuit of knowledge. We encourage our students to be passionite about learning and growing themeselves throughout life.
 
 
-## Achievements
+
 ${<AchievementSlider />}
+
+${<CtaButton />}
 
 
 `)

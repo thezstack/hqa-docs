@@ -35,7 +35,7 @@ class Staff extends Component {
           padding-top: 0;
         }
 
-        `}{' '}
+        `}
         </style>
 
       </div>
