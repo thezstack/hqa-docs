@@ -16,7 +16,7 @@ class VisionSnippet extends Component {
           margin: 20px 0;
           border: 1px solid #eee;
           border-left-width: 10px;
-          border-radius: 3px;
+
         }
         .bs-callout-default {
           border-left-color: #6084d7;
@@ -24,12 +24,12 @@ class VisionSnippet extends Component {
         h1 {
           font-size: 1.6em;
           line-height: 1.4;
-          
+
         }
 
 
 
-        `}{' '}
+        `}
         </style>
 
       </div>

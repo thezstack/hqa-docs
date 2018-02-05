@@ -1,15 +1,3 @@
-// Helpers
-
-{
-  /*
-import Link from 'next/link'
-import redirect from '../lib/redirect'
-export default redirect('/docs')
-*/
-}
-
-// import Slider from '../components/slider'
-// import Section from '../components/section'
 import Navbar from '../components/navbar'
 import Main from '../components/main'
 import Head from '../components/head'
