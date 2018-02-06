@@ -22,6 +22,7 @@ export default function HQA() {
             max-width: 768px;
             position: relative;
             margin: auto;
+            font-size:18px;
           }
 
         `}</style>

@@ -46,13 +46,13 @@ export default props => {
       data-components-heading
     >
       <span id={id} className="target" style={targetStyle} />
-      <a href={'#' + id}>{children}</a>
+      <h2>{children}</h2>
       <span className="permalink"><PermalinkIcon /></span>
       <style jsx>
         {`
         a {
           border-bottom: 1px solid transparent;
-          color: inherit;
+          color: #59118e;
           margin-right: 10px;
           text-decoration: none;
         }

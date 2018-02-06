@@ -41,7 +41,8 @@ class Page extends React.Component {
               padding-bottom: 6rem;
               font-family: ${FONT_FAMILY_SANS};
               text-rendering: optimizeLegibility;
-            }
+
+            }t
 
             html, body {
               background-color: ${darkBg ? '#000' : '#fff'};

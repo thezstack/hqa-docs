@@ -19,7 +19,7 @@ ${<VisionSnippet />}
 We foster every student's ability to succeed in this world and to help contribute back into growing our community.
 
 
-### School Pride: Navy Blue & White
+## School Pride: Navy Blue & White
 ${<Image src={`${IMAGE_ASSETS_URL}/logo/School_seal.png`} width={150} height={150} />}
 Navy Blue is a color of trust, honesty & intuition. These are some of the values we instill early on among our students. White represents نور (light) of students and the pursuit of knowledge. We encourage our students to be passionite about learning and growing themeselves throughout life.
 
