@@ -36,7 +36,7 @@ class AchievementSlider extends Component {
 
             .container{
               padding:0px;
-              margin:0px;
+              margin-top:100px;
               display:flex;
               justify-content: space-around;
               flex-flow: row wrap;

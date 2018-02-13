@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Image from './image'
 
 class Staff extends Component {
   render() {
@@ -61,14 +62,18 @@ class Staff extends Component {
               <a href="mailto:"><i className="fa fa-envelope-o fa-2x" /></a>
             </div>
           </div>
-
+          <Image
+            src={`${IMAGE_ASSETS_URL}/media/teachers.jpeg`}
+            width={1280}
+            height={720}
+          />
           <h1> Meet our Teachers </h1>
           <p>
-            {' '}Our academic teachers are state certified.
+            Our academic teachers are state certified.
             Most hold advanced degrees.
             They model life-long learning by pursuing additional degrees and attending professional development courses.
             By taking a sincere interest in each student, they inspire academic success and spiritual growth.
-            {' '}
+
           </p>
 
           <div className="profile-card text-center">

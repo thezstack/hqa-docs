@@ -8,56 +8,49 @@ class CtaButton extends Component {
           <a href="#" className="action-button shadow animate blue">
             Apply Now
           </a>
-          <a href="#" className="action-button shadow animate red">
-            Employment
-          </a>
+
         </div>
 
         <style jsx>
           {`
-            .animate
-                {
-                	transition: all 0.1s;
-                	
-                }
+              .animate
+              {
+              	transition: all 0.1s;
 
-                .action-button
-                {
-                	position: relative;
-                	padding: 10px 40px;
-                  margin: 0px 10px 10px 0px;
-                  float: left;
-                	border-radius: 10px;
+              }
 
-                	font-size: 25px;
-                	color: #FFF;
-                	text-decoration: none;
-                }
+              .action-button
+              {
+              	position: relative;
+              	padding: 25px 300px;
 
-                .blue
-                {
-                	background-color: #3498DB;
-                	border-bottom: 5px solid #2980B9;
-                	text-shadow: 0px -2px #2980B9;
-                }
+                margin: 0px 10px 10px 0px;
 
-                .red
-                {
-                	background-color: #E74C3C;
-                	border-bottom: 5px solid #BD3E31;
-                	text-shadow: 0px -2px #BD3E31;
-                }
-                .container{
+              	border-radius: 10px;
 
-                  display:flex;
-                  padding:0px;
-                  padding-top:50px;
-                  margin:0px;
-                  display:flex;
-                  justify-content: space-around;
-                  flex-flow: row wrap;
+              	font-size: 1.2em;
+              	color: #FFF;
+              	text-decoration: none;
+              }
 
-                }
+              .blue
+              {
+              	background-color:#59118e;
+
+              }
+
+
+              .action-button:active
+              {
+              	transform: translate(0px,5px);
+              	border-bottom: 1px solid;
+              }
+
+              .container{
+                display:flex;
+                justify-content:center;
+                padding-top:100px;
+              }
 
         `}
         </style>
