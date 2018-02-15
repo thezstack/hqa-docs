@@ -1,23 +1,24 @@
 import React, { Component } from 'react'
 import Image from './image'
 
-class BoysUniform extends Component {
+class GirlsUniform extends Component {
   render() {
     return (
       <div>
         <div className="container">
+
           <Image
-            src={`${IMAGE_ASSETS_URL}/media/SVG/polo.svg`}
+            src={`${IMAGE_ASSETS_URL}/media/SVG/shirt.svg`}
             width={75}
             height={75}
           />
           <Image
-            src={`${IMAGE_ASSETS_URL}/media/SVG/trousers.svg`}
+            src={`${IMAGE_ASSETS_URL}/media/SVG/overall.svg`}
             width={75}
             height={75}
           />
           <Image
-            src={`${IMAGE_ASSETS_URL}/media/SVG/thobe.svg`}
+            src={`${IMAGE_ASSETS_URL}/media/SVG/hijab.svg`}
             width={75}
             height={75}
           />
@@ -40,4 +41,4 @@ class BoysUniform extends Component {
   }
 }
 
-export default BoysUniform
+export default GirlsUniform
