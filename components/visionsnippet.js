@@ -5,7 +5,7 @@ class VisionSnippet extends Component {
     return (
       <div>
         <div className="bs-callout bs-callout-default">
-          <h1>"O Allah, make us Leaders for the Righteous"</h1>
+          <h1>{this.props.name}</h1>
 
         </div>
 

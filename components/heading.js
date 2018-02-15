@@ -46,23 +46,21 @@ export default props => {
       data-components-heading
     >
       <span id={id} className="target" style={targetStyle} />
-      <h2>{children}</h2>
+      <a>{children}</a>
       <span className="permalink"><PermalinkIcon /></span>
       <style jsx>
         {`
         a {
-          border-bottom: 1px solid transparent;
           color: #59118e;
           margin-right: 10px;
           text-decoration: none;
         }
 
-        a:hover {
-          border-bottom-color: inherit;
-        }
+
 
         :global(h1[data-components-heading]) a::before {
           content: "# ";
+
         }
 
         :global(h2[data-components-heading]) a::before {
@@ -98,9 +96,7 @@ export default props => {
           visibility: hidden;
         }
 
-        a:hover ~ .permalink {
-          visibility: visible;
-        }
+
         `}
       </style>
     </Heading>

@@ -10,7 +10,7 @@ export default function DropdownNav() {
           </Link>
         </li>
         <li>
-          <Link href="/docs/islamic-studies/quran/memorization">
+          <Link href="/docs/islamic-studies/quran">
             <span>Islamic Studies</span>
           </Link>
         </li>

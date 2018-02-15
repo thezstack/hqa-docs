@@ -1,24 +1,17 @@
 import markdown from 'markdown-in-js'
 import withDoc, { components } from '../../../lib/with-doc'
-
-{
-  /* import { leo, arunoda } from '../../../lib/data/team'
-import { TerminalInput } from '../../../components/text/terminal'
-import { Code } from '../../../components/text/code'
-import { HR } from '../../../components/text/paragraph'
 import Image from '../../../components/image'
-import Now from '../../../components/now/now' */
-}
 
-// prettier-ignore
 export default withDoc({
-  title: 'Elementary School',
+  title: '',
   date: '6 Dec 2017',
-  authors: ["allen", "zubi"],
+  authors: ['zubi']
 })(markdown(components)`
 
 
 ## Elementary Curriculum
+
+${<Image src={`${IMAGE_ASSETS_URL}/media/elementary2.jpeg`} width={1280} height={720} />}
 Houston Quran Academy is where children can explore the world around them. We stimulate their minds and nurture their hearts. We strongly believe that a child learns best when in a safe, secure, and happy environment.
 Our mission is to engage students in hands-on learning initiated by their own curiosity. Therefore, our curriculum revolves around project-based learning. Lessons, assignments, and assessments are designed for and adjusted to each child’s level and needs.
 
@@ -55,10 +48,9 @@ The technology program develops a sense of computer literacy in each student. St
 ### Computers and iPads in the Classroom:
 
 Reinforce skills in other subject areas.
-Practice keyboarding.
+Practice typing.
 Learn new programs.
 Research information.
-Create projects through word processing and other programs.
 Explore new ideas.
 
 ### Computer Lab:
@@ -87,18 +79,32 @@ Activites are designed to provide daily exercise, friendly competition, and rela
 The IOWA Evaluates:
 
 Language Skills
+
 Vocabulary
+
 Reading
+
 Language
+
 Word Analysis (Grades K-3 only)
+
 Listening (Grades K-3 only)
+
 Spelling
+
 Mathematics
+
 Math Concepts
+
 Math Computation
+
 Math Problem Solving
+
 Science, Social Studies, and Study Skills
+
 Social Studies
+
 Science Materials
+
 Sources of Information
 `)

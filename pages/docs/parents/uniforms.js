@@ -1,27 +1,20 @@
 import markdown from 'markdown-in-js'
 import withDoc, { components } from '../../../lib/with-doc'
+import BoysUniform from '../../../components/boysuniform'
 
-{
-  /* import { leo, arunoda } from '../../../lib/data/team'
-import { TerminalInput } from '../../../components/text/terminal'
-import { Code } from '../../../components/text/code'
-import { HR } from '../../../components/text/paragraph'
-import Image from '../../../components/image'
-import Now from '../../../components/now/now' */
-}
-
-// prettier-ignore
 export default withDoc({
   title: 'Uniform Policy',
   date: '6 Dec 2017',
-  authors: ["allen", "zubi"],
+  authors: ['zubi']
 })(markdown(components)`
 
 
 # Elementary
 
-## Kindergarten - 5th Grade
 
+
+## Kindergarten - 5th Grade
+${<BoysUniform />}
 ### Boys
 Khaki pants with polo shirt (White or Navy Blue). Fridays we encourage our student to wear thobes that have long sleeves and any color of their choice. Tennis shoes.
 
@@ -48,6 +41,6 @@ Tennis shoes
 PE uniforms are required for girls in 3rd grade and up. Uniforms can be purchased from East Essence. See description below.
 
 ## East Essence
-East Essence, which is an online clothing store, has partnered with us to sell high quality abaya at a very inexpensive price. Any clothing purchased through them also helps with our cost of running the school. 
+East Essence, which is an online clothing store, has partnered with us to sell high quality abaya at a very inexpensive price. Any clothing purchased through them also helps with our cost of running the school.
 
 `)

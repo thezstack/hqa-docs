@@ -2,6 +2,7 @@ import Navbar from '../components/navbar'
 import Main from '../components/main'
 import Head from '../components/head'
 import Footer from '../components/footer/desktop'
+
 export default function HQA() {
   return (
     <div>

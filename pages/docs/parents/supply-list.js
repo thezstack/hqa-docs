@@ -14,7 +14,7 @@ import Now from '../../../components/now/now' */
 export default withDoc({
   title: 'Supply List',
   date: '6 Dec 2017',
-  authors: ["allen", "zubi"],
+  authors: [ "zubi"],
 })(markdown(components)`
 
 

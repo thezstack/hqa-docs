@@ -13,7 +13,7 @@ import Now from '../../../components/now/now' */
 export default withDoc({
   title: 'Useful Links',
   date: '6 Dec 2017',
-  authors: ["allen", "zubi"],
+  authors: ["zubi"],
 })(markdown(components)`
 
 

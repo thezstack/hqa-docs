@@ -11,10 +11,10 @@ export default withDoc({
   authors: ['zubi']
 })(markdown(components)`
 ${<Image src={`${IMAGE_ASSETS_URL}/media/celebration.jpeg`} width={1280} height={720} />}
-  ## Why Houston Quran Academy ?
+## Why Houston Quran Academy ?
   Established in 2006, Houston Quran Academy focuses on educating students in Quranic & Worldly sciences. Our students learn how to strive in becoming a committed balanced muslim, knowledgable scholar, contributing citizen and a community builder.
 
-${<VisionSnippet />}
+${<VisionSnippet name="O Allah, make us leaders for the righteous." />}
 
 We foster every student's ability to succeed in this world and to help contribute back into growing our community.
 
