@@ -27,7 +27,7 @@ Navy Blue is a color of trust, honesty & intuition. These are some of the values
 
 ${<AchievementSlider />}
 
-${<CtaButton />}
+${<CtaButton cta="Apply Now" href="/docs/donations" />}
 
 
 `)

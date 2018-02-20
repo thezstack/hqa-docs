@@ -5,8 +5,11 @@ class CtaButton extends Component {
     return (
       <div>
         <div className="container">
-          <a href="#" className="action-button shadow animate blue">
-            Apply Now
+          <a
+            href={this.props.href}
+            className="action-button shadow animate blue"
+          >
+            {this.props.cta}
           </a>
 
         </div>
@@ -23,14 +26,10 @@ class CtaButton extends Component {
               {
               	position: relative;
               	padding: 25px 300px;
-
-                margin: 0px 10px 10px 0px;
-
-              	border-radius: 10px;
-
               	font-size: 1.2em;
               	color: #FFF;
               	text-decoration: none;
+                text-align:center;
               }
 
               .blue
@@ -49,6 +48,7 @@ class CtaButton extends Component {
               .container{
                 display:flex;
                 justify-content:center;
+                align-items:center;
                 padding-top:100px;
               }
 

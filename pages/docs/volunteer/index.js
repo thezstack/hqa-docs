@@ -1,32 +1,24 @@
 import markdown from 'markdown-in-js'
 import withDoc, { components } from '../../../lib/with-doc'
-
-{
-  /* import { leo, arunoda } from '../../../lib/data/team'
-import { TerminalInput } from '../../../components/text/terminal'
-import { Code } from '../../../components/text/code'
-import { HR } from '../../../components/text/paragraph'
 import Image from '../../../components/image'
-import Now from '../../../components/now/now' */
-}
+import Form from '../../../components/form'
 
-// prettier-ignore
 export default withDoc({
   title: 'Volunteer',
   date: '6 Dec 2017',
-  authors: ["allen", "zubi"],
+  authors: ['zubi']
 })(markdown(components)`
 
+
+${<Image src={`${IMAGE_ASSETS_URL}/media/volunteer.jpeg`} width={1050} height={690} />}
 ## Get Involved
 
-Want to become more engaged with your child and teachers? Become a HQA volunteer!
+Want to become more engaged with your child and teachers? Become an HQA volunteer!
 
 
 
-## Volunteer Opportunities
-  1. PTO
 
-## Form
+${<Form />}
 
 
 
