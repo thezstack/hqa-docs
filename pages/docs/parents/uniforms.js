@@ -3,6 +3,7 @@ import withDoc, { components } from '../../../lib/with-doc'
 import BoysUniform from '../../../components/boysuniform'
 import HighSchoolGirlUniform from '../../../components/highschoolgirluniform'
 import GirlsUniform from '../../../components/girlsuniform'
+import CtaButton from '../../../components/ctabutton'
 
 export default withDoc({
   title: 'Uniform Policy',
@@ -49,5 +50,5 @@ PE uniforms are required for girls in 3rd grade and up. Uniforms can be purchase
 
 ## East Essence
 East Essence, which is an online clothing store, has partnered with us to sell high quality abaya at a very inexpensive price. Any clothing purchased through them also helps with our cost of running the school.
-
+${<CtaButton href="http://www.eastessence.com/islamic-clothing/Houston-Quran-Academy" cta="Shop East Essence" />}
 `)

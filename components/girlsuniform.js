@@ -13,7 +13,7 @@ class GirlsUniform extends Component {
             height={75}
           />
           <Image
-            src={`${IMAGE_ASSETS_URL}/media/SVG/overall.svg`}
+            src={`${IMAGE_ASSETS_URL}/media/SVG/jumper.svg`}
             width={75}
             height={75}
           />

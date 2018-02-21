@@ -17,34 +17,6 @@ class CtaButton extends Component {
 
         <style jsx>
           {`
-              .animate
-              {
-              	transition: all 0.1s;
-
-              }
-
-              .action-button
-              {
-              	position: relative;
-              	padding: 25px 300px;
-              	font-size: 1.2em;
-              	color: #FFF;
-              	text-decoration: none;
-                text-align:center;
-              }
-
-              .blue
-              {
-              	background-color:#59118e;
-
-              }
-
-
-              .action-button:active
-              {
-              	transform: translate(0px,5px);
-              	border-bottom: 1px solid;
-              }
 
               .container{
                 display:flex;
@@ -53,6 +25,34 @@ class CtaButton extends Component {
                 padding-top:100px;
 
               }
+
+              a.action-button
+              {
+              	position: relative;
+                padding:0.80em 1.2em;
+                border:0.1em solid #59118e;
+                margin:0 0.5em 0.5em 0;
+                border-radius:0.12em;
+                box-sizing: border-box;
+                text-decoration:none;
+                font-weight:300;
+                color:black;
+                text-align:center;
+                transition: all 0.2s;
+                width:50%;
+              }
+              a.action-button:hover{
+                color:white;
+                background-color:#59118e;
+              }
+              @media all and (max-width:30em){
+                a.action-button{
+            display:block;
+            margin:0.4em auto;
+                }
+              }
+
+
 
         `}
         </style>
