@@ -9,6 +9,7 @@ class CtaButton extends Component {
             href={this.props.href}
             className="action-button shadow animate blue"
           >
+            {this.props.image}
             {this.props.cta}
           </a>
 
@@ -50,6 +51,7 @@ class CtaButton extends Component {
                 justify-content:center;
                 align-items:center;
                 padding-top:100px;
+
               }
 
         `}

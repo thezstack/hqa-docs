@@ -15,6 +15,7 @@ const Header = () => (
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
       />
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
     </Head>
   </div>

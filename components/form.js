@@ -50,15 +50,19 @@ class Form extends Component {
           h1{
             text-align:center;
             font-size:1.8em;
-            color:black;
+            color:#17345b;
 
+          }
+
+          p {
+            color:#17345b;
           }
 
           .container {
             background-color:#f3f4f5;
             width: 100%;
             height: 40rem;
-            margin: 0 auto;
+            margin-top:50px;
             overflow: hidden;
             position: relative;
           }
