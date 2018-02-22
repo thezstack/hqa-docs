@@ -10,7 +10,7 @@ class Contact extends Component {
         </div>
         <div className="container">
           <a href="tel:2817174622" className="button1">
-            {' '}
+
             <img src="../static/media/SVG/phone-call.svg" className="img" />
             phone
           </a>
@@ -22,7 +22,7 @@ class Contact extends Component {
             className="button1"
           >
             <img src="../static/media/SVG/placeholder.svg" className="img" />
-            {' '}
+
             directions
           </a>
         </div>

@@ -9,7 +9,7 @@ export default withDoc({
 
 
 ## Middle School Academics
-Middle School is a beginning of a new world for your child. This is a time where they will expand core Islamic knowledge,  strengthen academic skills, and mature among caring classmates who support each other through these years of transition.
+Middle School is the beginning of a new world for your child. This is a time where they will expand core Islamic knowledge,  strengthen academic skills, and mature among classmates who support each other through these years of transition.
 
 At Houston Quran Academy, we don't believe that lectures or textbooks alone can inspire creativity and enthusiasm. This is why we base our middle school curriculum on collaborative experiences where students will indulge in hands-on projects. We integrate math and science with wisdom from the Quran. We strive to create students who will become leaders of the righteous.
 

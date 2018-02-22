@@ -47,8 +47,8 @@ class CtaButton extends Component {
               }
               @media all and (max-width:30em){
                 a.action-button{
-            display:block;
-            margin:0.4em auto;
+                  display:block;
+                  margin:0.4em auto;
                 }
               }
 
