@@ -5,10 +5,12 @@ import Image from '../../../components/image'
 
 // prettier-ignore
 export default withDoc({
-  title: 'Mission & Values',
+  title: '',
   date: '6 Dec 2017',
   authors: ["zubi"],
 })(markdown(components)`
+
+# Mission & Values
 ${  <Image
     src={`${IMAGE_ASSETS_URL}/media/assembly.png`}
     width={1280}

@@ -1,21 +1,21 @@
 import markdown from 'markdown-in-js'
 import withDoc, { components } from '../../../lib/with-doc'
+import SupplyList from '../../../components/supplylist'
 import CtaButton from '../../../components/ctabutton'
 
 export default withDoc({
-  title: 'Supply List',
+  title: '',
   date: '6 Dec 2017',
   authors: ['zubi']
 })(markdown(components)`
 
-
-${<CtaButton cta="Kindergarten Supply List" />}
-${<CtaButton cta="1st Grade Supply List" />}
-${<CtaButton cta="2nd Grade Supply List" />}
-${<CtaButton cta="3rd Grade Supply List" />}
-${<CtaButton cta="4th Grade Supply List" />}
-${<CtaButton cta="5th Grade Supply List" />}
+# Classroom Supply List
+${<SupplyList />}
 
 
+# School Supply Kits
+We have partnered up with schoolsupplieskit.com to provide ready made school supply kits for your child so that you can spend more time on creating beautiful back to school memories.  Click the button below to place an order online and receive a complete box of all the supplies your child needs to succeed at Houston Quran Academy. A portion of profit generated goes towards funding school activites.
+
+${<CtaButton cta="Order School Supply Kit" />}
 
 `)

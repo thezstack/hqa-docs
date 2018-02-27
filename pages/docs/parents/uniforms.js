@@ -46,7 +46,7 @@ Abaya (East Essence). Any color hijab. A black abaya can be worn on Fridays.
 Tennis shoes
 
 ## P.E.
-PE uniforms are required for girls in 3rd grade and up. Uniforms can be purchased from East Essence. See description below.
+Uniforms can be purchased from East Essence. See description below.
 
 ## East Essence
 East Essence, which is an online clothing store, has partnered with us to sell high quality abaya at a very inexpensive price. Any clothing purchased through them also helps with our cost of running the school.

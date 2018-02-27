@@ -7,7 +7,8 @@ export default withDoc({
   authors: ['zubi']
 })(markdown(components)`
 
-
+## Arabic
+In order to fully understand the depth of the Quran, we teach our students the arabic language. 
 
 
 

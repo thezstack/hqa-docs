@@ -29,13 +29,13 @@ class Mission extends Component {
           </p>
           <h3>Contributing Citizens</h3>
           <p>
-            Students give back, whether it is Islamic knowledge or their time.
+            Students give back, whether it is knowledge or their time.
 
           </p>
           <h3>Community Builders</h3>
           <p>
 
-            Students are develop their skills to help become leaders of the community.
+            Students focus on developing their skills to become future leaders of the community.
 
           </p>
         </div>
@@ -48,7 +48,7 @@ class Mission extends Component {
 
             .container {
 
-        
+
             }
 
 
