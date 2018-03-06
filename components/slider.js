@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import Slide from './slide'
+import Slide from 'slide'
 
 class Slider extends Component {
   constructor() {
     super()
     this.state = {
       background: [
-        {
-          imageUrl: `${IMAGE_ASSETS_URL}/dr_hamed/praying.jpg`
-
-        }
+        { imageUrl: 'http://lorempixel.com/1920/1080' },
+        { imageUrl: 'http://lorempixel.com/1920/1080' },
+        { imageUrl: 'http://lorempixel.com/1920/1080' },
+        { imageUrl: 'http://lorempixel.com/1920/1080' }
       ],
       currentImg: 0,
       interval: null
@@ -44,22 +44,12 @@ class Slider extends Component {
         <Slide
           background={this.state.background}
           current={this.state.currentImg}
-        >
-          <div>
-            <h1>وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَاماً</h1>
-            <p className="cta"> "O Allah, make us leaders of the righteous."</p>
-          </div>
-        </Slide>
+        />
         <style jsx>{`
           .slideshow {
             overflow: hidden;
             z-index: -1;
           }
-          .cta{
-            color:white;
-            font-size:1em;
-          }
-
         `}</style>
       </div>
     )

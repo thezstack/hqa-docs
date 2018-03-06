@@ -3,13 +3,13 @@ import withDoc, { components } from '../../../lib/with-doc'
 import Image from '../../../components/image'
 
 export default withDoc({
-  title: 'Montessori',
+  title: '',
   date: '6 Dec 2017',
   authors: ['zubi']
 })(markdown(components)`
 
 
-
+# Montessori
 Katy Islamic Academy is a program for young children, ages 18-Months to 6 Years, that supports children through their discovery process.  Children learn through play, experimentation, exploration, and testing. Learning should be joyful experience. Ninety percent of brain growth occurs from zero to five years. We incorporate current trends in early childhood education and then structure the curriculum to meet children’s individual needs.
 
 ${<Image src={`${IMAGE_ASSETS_URL}/media/montessori.jpeg`} width={1180} height={720} caption="young children showing patriotism" />}

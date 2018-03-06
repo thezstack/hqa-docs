@@ -51,7 +51,7 @@ export default props => {
       <style jsx>
         {`
         a {
-          color: #59118e;
+          color: #27408b;
           margin-right: 10px;
           text-decoration: none;
         }

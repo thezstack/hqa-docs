@@ -10,7 +10,7 @@ export default withDoc({
   date: '6 Dec 2017',
   authors: ['zubi']
 })(markdown(components)`
-${<Image src={`${IMAGE_ASSETS_URL}/media/celebration.jpeg`} width={1280} height={720} />}
+${<Image src={`${IMAGE_ASSETS_URL}/media/celebration.jpeg`} width={1050} height={650} />}
 ## Why Houston Quran Academy ?
   Established in 2006, Houston Quran Academy focuses on educating students in Quranic & Worldly sciences. Our students learn how to strive in becoming a committed balanced muslim, knowledgable scholar, contributing citizen and a community builder.
 
@@ -27,7 +27,7 @@ Navy Blue is a color of trust, honesty & intuition. These are some of the values
 
 ${<AchievementSlider />}
 
-${<CtaButton cta="Apply Now" href="/docs/donations" />}
+${<CtaButton cta="Apply Now" href="/docs/admissions" />}
 
 
 `)

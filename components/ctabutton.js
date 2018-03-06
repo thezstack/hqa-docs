@@ -5,10 +5,7 @@ class CtaButton extends Component {
     return (
       <div>
         <div className="container">
-          <a
-            href={this.props.href}
-            className="action-button shadow animate blue"
-          >
+          <a href={this.props.href} className="action-button">
             {this.props.image}
             {this.props.cta}
           </a>
@@ -30,7 +27,7 @@ class CtaButton extends Component {
               {
               	position: relative;
                 padding:0.80em 1.2em;
-                border:0.1em solid #59118e;
+                border:0.1em solid #27408b;
                 margin:0 0.5em 0.5em 0;
                 border-radius:0.12em;
                 box-sizing: border-box;
@@ -43,7 +40,7 @@ class CtaButton extends Component {
               }
               a.action-button:hover{
                 color:white;
-                background-color:#59118e;
+                background-color:#27408b;
               }
               @media all and (max-width:30em){
                 a.action-button{
