@@ -12,7 +12,7 @@ export default withDoc({
 # Elementary Curriculum
 
 ${<Image src={`${IMAGE_ASSETS_URL}/media/elmentary.jpeg`} width={1050} height={650} />}
-Houston Quran Academy is where children can explore the world around them. We spark their minds and care for their hearts. We strongly believe that a child learns best when in a safe, secure, and happy environment.
+Houston Quran Academy is where children can explore the world around them. We strongly believe that a child learns best when in a safe, secure, and happy environment.
 Our mission is to engage students in hands-on learning initiated by their own curiosity. Therefore, our curriculum revolves around project-based learning. Lessons, assignments, and assessments are designed for and adjusted to each child’s level and needs.
 
 The curriculum at HQA covers all Texas requirements STAAR TEKS and National Standards. HQA even uses IOWA for even further evaluation.

@@ -36,7 +36,7 @@ class Staff extends Component {
                     />
                   </div>
                   <h2 className="hvr-underline-from-center">
-                    Shamima Khalid<span>Asisstant Principle</span>
+                    Shamima Khalid<span>Assistant Principle</span>
                   </h2>
                   <div>
                     Masters degree and over 20 years experience in Muslim schools as a principal and teacher
@@ -69,13 +69,13 @@ class Staff extends Component {
         </div>
 
         <h1> Meet our Teachers </h1>
-        <p>
-          Our academic teachers are state certified.
-          Most hold advanced degrees.
-          They model life-long learning by pursuing additional degrees and attending professional development courses.
-          By taking a sincere interest in each student, they inspire academic success and spiritual growth.
+          <p>
+            Our academic teachers are state certified.
+            Most hold advanced degrees.
+            They model life-long learning by pursuing additional degrees and attending professional development courses.
+            By taking a sincere interest in each student, they inspire academic success and spiritual growth.
 
-        </p>
+          </p>
         <div className="container">
           <div className="row">
 
@@ -160,10 +160,11 @@ class Staff extends Component {
             h1 {
               line-height:40px;
               color: #27408b;
+
             }
 
-            .container{
-
+            h2 {
+              font-size:1.5em;
             }
 
             .img-responsive {
@@ -189,7 +190,7 @@ class Staff extends Component {
               margin: auto;
               z-index: 1;
               max-width: 100px;
-              
+
             		  transition: all 0.4s;
             				}
 
@@ -210,12 +211,12 @@ class Staff extends Component {
             .profile-info span {
             	display: block;
                 font-size: 12px;
-                color: #4CB493;
+                color: #27408b;
             	letter-spacing: 2px;
             			}
 
             .profile-info a {
-            	 color: #4CB493;
+            	 color: #27408b;
             		}
             .profile-info i {
             	    padding: 15px 35px 0px 35px;

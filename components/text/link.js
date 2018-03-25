@@ -84,6 +84,23 @@ export const ExternalLink = ({ href, children }, { darkBg } = {}) =>
     </style>
   </a>
 
+  export const NavLink = ({ href, children }= {}) =>
+    <a
+      className={darkBg ? 'dark' : ''}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {children}
+
+      <style jsx>
+        {`
+
+        `}
+      </style>
+    </a>
+
+
 ExternalLink.contextTypes = {
   darkBg: PropTypes.bool
 }

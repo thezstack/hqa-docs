@@ -29,7 +29,7 @@ export default class Navbar extends React.Component {
               padding: 0px;
             }
             .fixed-top {
-              position: fixed;
+            
               top: 0;
               left: 0;
               right: 0;

@@ -4,7 +4,7 @@ class Mission extends Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div>
 
           <h1> Our Mission </h1>
           <p>
@@ -43,13 +43,10 @@ class Mission extends Component {
         <style jsx>
           {`
             h1, h3 {
-              color:#59118e;
+              color:#27408b;
             }
 
-            .container {
 
-
-            }
 
 
 

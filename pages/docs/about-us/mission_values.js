@@ -12,11 +12,12 @@ export default withDoc({
 
 # Mission & Values
 ${  <Image
-    src={`${IMAGE_ASSETS_URL}/media/assembly.png`}
-    width={1280}
-    height={720}
+    src={`${IMAGE_ASSETS_URL}/media/values.jpeg`}
+    width={1050}
+    height={650}
 
   />}
+  
 ${<Mission />}
 
 
